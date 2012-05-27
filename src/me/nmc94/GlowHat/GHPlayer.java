@@ -34,7 +34,7 @@ public class GHPlayer implements Listener {
 
         if ((hey == 50) || (hey == 10) || (hey == 11) || (hey == 51) || (hey == 89) || (hey == 91) || (hey == 124)) {
 
-            if (d >= 2.0) {
+            if (d >= 5.0) {
                 GlowHat.resetLight(pLocations.get(pName), player);
                 GlowHat.LightUp(toLoc, player);
                 pLocations.put(pName, toLoc);
